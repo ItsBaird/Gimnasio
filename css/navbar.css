@@ -1,0 +1,25 @@
+
+.navbar {
+    display: flex;
+    justify-content: center; 
+    background-color: #333 !important;
+}S
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1; /* Permite que el contenedor ocupe el espacio disponible */
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px; /* Opcional: Agrega espacio entre los elementos */
+}
+
+.navbar .navbar-nav .nav-link{
+    color: white !important;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(153, 208, 237) !important; /* Cambia el color cuando se pone el cursor sobre el a tu preferencia */
+}
